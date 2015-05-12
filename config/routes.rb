@@ -1,0 +1,4 @@
+ROUTES = {
+  '/' => MainController,
+  '/admin' => AdminController,
+}

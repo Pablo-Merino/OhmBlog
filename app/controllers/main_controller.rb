@@ -1,4 +1,4 @@
-class Application < Sinatra::Application
+class MainController < BaseController
   get '/' do
     haml :index
   end

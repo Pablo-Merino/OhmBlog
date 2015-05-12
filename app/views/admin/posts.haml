@@ -1,0 +1,6 @@
+- if @posts.empty?
+  %h1 No posts!
+- else
+  %ul 
+    - @posts.each do |p|
+      %li= p.title
