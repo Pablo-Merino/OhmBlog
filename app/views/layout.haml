@@ -1,6 +1,11 @@
 !!!
 %html
   %head
-    %title Layout
+    %title OhmBlog
+    %link{href:'/bootstrap.min.css', rel: 'stylesheet'}
   %body
-    =yield
+    .container
+      %h1
+        Ohm Blog
+        %small Sinatra + Redis = <3
+      = yield

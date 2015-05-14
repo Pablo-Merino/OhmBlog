@@ -1,2 +1,7 @@
-%h1 Hey
-=@whoo
+.row
+  .col-md-8
+    - @posts.each do |p|
+      %h1= p.title
+    = @featured_post.count
+  .col-md-4
+    lol

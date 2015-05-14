@@ -1,0 +1,6 @@
+%h1 New post
+%form{action: '/admin/posts/new', method: 'POST'}
+  %input{type: 'text', name: 'title', placeholder: 'Title'}
+  %input{type: 'text', name: 'content', placeholder: 'Content'}
+  %input{type: 'checkbox', name: 'cover_post', value: 'true'}
+  %input{type: 'submit', value: 'Submit'}
